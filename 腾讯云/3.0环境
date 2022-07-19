@@ -1,0 +1,22 @@
+
+
+（预发 3.0环境）：
+1. 变成新用户，可见”试用“及独立环境
+curl   http://9.220.16.154/qcloudapi   -d '{"Action":"ActivateAccount","Uins":["100000558783"],"Type":1,"ExpiredAfter":30}'
+2. 变成老用户，可见”天津“及独立环境
+curl   http://9.220.16.154/qcloudapi   -d '{"Action":"ActivateAccount","Uins":["100000558783"],"Type":2}'
+
+
+续费
+curl   http://9.139.26.131/qcloudapi   -d '{"Action":"ActivateAccount","Uins":["308000000042"],"Type":1,"ExpiredAfter":30}'
+
+
+（beta 3.0环境）：
+1. 变成新用户，可见”试用“及独立环境
+curl    http://9.139.26.131/qcloudapi    -d '{"Action":"ActivateAccount","Uins":["100000558783"],"Type":1,"ExpiredAfter":30}'
+2. 变成老用户，可见”天津“及独立环境
+curl    http://9.139.26.131/qcloudapi    -d '{"Action":"ActivateAccount","Uins":["100000558783"],"Type":2}'
+
+
+3.0 独立控制台切beta环境
+https://doc.weixin.qq.com/doc/w3_AAYAXgYsACoJaEnqRjdQJeepR3ARP?scode=AJEAIQdfAAo7o5HzK9AAYAXgYsACo&version=3.1.16.90294&platform=mac
